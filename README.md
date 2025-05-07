@@ -1,4 +1,3 @@
-````markdown
 # CUDA Dev Environment with LazyVim
 
 This project sets up a GPU-enabled, Dockerized development environment with:
@@ -30,7 +29,7 @@ Make sure you have the following installed on your system:
 ```bash
 git clone https://github.com/CldStlkr/cuda-dev-env.git
 cd cuda-dev-env
-````
+```
 
 ---
 
@@ -100,7 +99,7 @@ This uses LazyVim, which will automatically install plugins on first run. Your c
 
 ## 🧹 Optional: Reset Neovim Volumes
 
-If yo want to clean up and start fresh:
+If you want to clean up and start fresh:
 
 ```bash
 ./prepare-and-build.sh
@@ -150,8 +149,3 @@ To share this with others:
 2. They create their own `.env`
 3. Run `./prepare-and-build.sh`
 4. Done — no Docker knowledge required
-
----
-
-## 📜 License
-```
