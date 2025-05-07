@@ -1,0 +1,20 @@
+# Docker temp directories
+docker/docker-configs/
+
+# Environment files
+docker/.env
+
+# Build directories
+src/build/
+src/build-*/
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Compiled files
+*.o
+*.so
+*.a
