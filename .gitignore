@@ -1,20 +1,34 @@
-# Docker temp directories
-docker/docker-configs/
+# Ignore .env with local settings
+.env
 
-# Environment files
-docker/.env
+# Docker build artifacts
+docker-configs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
 
-# Build directories
-src/build/
-src/build-*/
+# Neovim state files (just in case)
+.cache/
+.local/
+.swap/
+.swp
+.swo
 
-# Editor files
+# Backup and lock files
+*.bak
+*.tmp
+*.lock
+
+# VSCode or JetBrains project files
 .vscode/
-*.swp
-*.swo
-.DS_Store
+.idea/
 
-# Compiled files
-*.o
-*.so
-*.a
+# macOS and Linux system files
+.DS_Store
+Thumbs.db
+
+# Volume data (in case using volume mounts with actual paths)
+nvim-data/
+nvim-cache/
